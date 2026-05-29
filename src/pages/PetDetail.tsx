@@ -151,34 +151,34 @@ export const PetDetail: React.FC = () => {
       <BackButton onClick={() => navigate('/')}>
         <ArrowLeft size={20} /> Back to Gallery
       </BackButton>
-      
+
       <ContentGrid>
         <ImageWrapper>
           <Image src={highResUrl} alt={pet.title} />
         </ImageWrapper>
-        
+
         <InfoPanel>
           <div>
             <Title>{pet.title}</Title>
           </div>
-          
+
           <Description>{pet.description}</Description>
-          
+
           <Meta>
-            <strong>Added to Eulerity:</strong> {dateObj.toLocaleDateString()} at {dateObj.toLocaleTimeString()}
+            <strong>Added to Gallery:</strong> {dateObj.toLocaleDateString()} at {dateObj.toLocaleTimeString()}
           </Meta>
 
           <Actions>
-            <ActionButton 
-              $selected={isSelected} 
+            <ActionButton
+              $selected={isSelected}
               onClick={() => toggleSelection(pet)}
             >
               <Check size={20} />
               {isSelected ? 'Selected' : 'Select'}
             </ActionButton>
-            
-            <ActionButton 
-              $primary 
+
+            <ActionButton
+              $primary
               onClick={() => downloadImages([pet])}
             >
               <Download size={20} />

@@ -1,7 +1,7 @@
-# PetBrowser - Eulerity Take-Home Challenge
+# Pets United - Eulerity Take-Home Challenge
 
 ## Overview
-PetBrowser is a responsive, modern web application built for the Eulerity Front-End Take-Home Challenge. It consumes the `/pets` API to display a curated gallery of pets, complete with advanced filtering, sorting, selection management, and bulk image downloading.
+Pets United is a responsive, modern web application built for the Eulerity Front-End Take-Home Challenge. It consumes the `/pets` API to display a curated gallery of pets, complete with advanced filtering, sorting, selection management, and bulk image downloading.
 
 ## How It Works & Challenge Rules Followed
 

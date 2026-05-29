@@ -106,7 +106,7 @@ export const Navbar: React.FC = () => {
     <NavbarContainer>
       <Logo to="/">
         <Cloud size={24} />
-        PetBrowser
+        Pets United
       </Logo>
 
       <NavLinks>
