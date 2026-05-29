@@ -21,15 +21,20 @@ const Content = styled.div`
   p {
     margin-bottom: 1.5rem;
   }
+  
+  ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 `;
 
 export const About: React.FC = () => {
   return (
     <AboutContainer>
-      <Title>About PetBrowser</Title>
+      <Title>About Pets United</Title>
       <Content>
         <p>
-          Welcome to PetBrowser, a beautiful front-end application built for the Eulerity Take-Home Challenge.
+          Welcome to Pets United, a beautiful front-end application built for the Eulerity Take-Home Challenge.
           This project demonstrates modern web development practices using React, TypeScript, and Vite.
         </p>
         <p>
@@ -49,3 +54,4 @@ export const About: React.FC = () => {
     </AboutContainer>
   );
 };
+
